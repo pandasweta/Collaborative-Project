@@ -1,3 +1,4 @@
+/* sweta */
 .main-header {
   min-height: auto;
 }
@@ -23,6 +24,7 @@ p {
   font-family: "Farro", sans-serif;
   font-weight: 400;
 }
+/* parth */
 .nav-bar-logo {
   display: flex;
   flex-direction: row;
@@ -60,3 +62,53 @@ margin-top: -18px;
 margin-left: -25px;
 
 }
+/* sweta */
+
+/* parth */
+
+/* silvi */
+.shoes-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "Farro",sans-serif;
+  font-size: 12px;
+
+
+
+}
+
+.parentdiv {
+  display: flex !important;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  font-family: "Farro",sans-serif;
+}
+
+.title {
+  font-size: 16px;
+  /* font-family: Neue Plak Regular; */
+  font-family: "Farro",sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  margin-top: -7px;
+  font-stretch: normal;
+  font-style: normal;
+  color: #0c2340;
+  width: 90%;
+}
+
+.wishlist {
+  position: relative;
+}
+
+.addcart {
+  position: absolute;
+
+  right: 30px;
+
+}
+/* silvi */
