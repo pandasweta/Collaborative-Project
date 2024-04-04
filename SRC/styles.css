@@ -2,6 +2,9 @@
 .main-header {
   min-height: auto;
 }
+.header-wrap {
+  width: 100%;
+}
 .promotion-header {
   height: 35px;
   width: 100%;
@@ -9,11 +12,23 @@
 }
 .menu-bar {
   background-color: #252525;
-  width: 100%; 
+  width: 100%;
   height: 55px;
   margin: 0;
   position: relative;
   top: -15px;
+}
+.menu-items.list {
+  margin-right: 10px;
+}
+select {
+  position: relative;
+  top: -55px;
+  right: -115px;
+  color: white;
+  background-color: #252525;
+  border-color: #252525;
+  height: 30px;
 }
 
 p {
@@ -24,6 +39,30 @@ p {
   font-family: "Farro", sans-serif;
   font-weight: 400;
 }
+
+#logos-cart {
+  border-left: 1px solid white;
+  height: 40px;
+  opacity: 0.8;
+  /* margin: 5px; */
+}
+
+.log-in {
+  border-right: 0.5px solid white;
+  height: 5px;
+  opacity: 0.8;
+  position: relative;
+  bottom: -5px;
+}
+
+@media (min-width: 400px) {
+  .header-wrap {
+    width: 100%;
+  }
+}
+
+/* sweta */
+
 /* parth */
 .nav-bar-logo {
   display: flex;
@@ -31,38 +70,37 @@ p {
   align-items: center;
 }
 .menu1 {
-  font-family: "Farro",sans-serif;
-  margin-left: 50px;
+  font-family: "Farro", sans-serif;
+  margin-left: 70px;
   width: 450px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .searchBar {
-  margin-left: 100px;
+  margin-left: 180px;
 }
 .searchBar input {
   font-size: 20px;
   height: 50px;
   border: none;
- 
 }
-.express{
+.express {
   height: 65px;
-  width: 245px;
+  width: 280px;
   border-radius: 51px;
   background-color: red;
   display: flex;
-  /* margin-left: 100px; */
-  font-family: "Farro",sans-serif;
+  margin-left: 50px;
+  /* position: relative;
+  right: -50px; */
+  font-family: "Farro", sans-serif;
 }
-.express > div{
-/* padding-top: -5px; */
-margin-top: -18px;
-margin-left: -25px;
-
+.express > div {
+  /* padding-top: -5px; */
+  margin-top: -18px;
+  margin-left: -25px;
 }
-/* sweta */
 
 /* parth */
 
@@ -72,28 +110,25 @@ margin-left: -25px;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 20px;
   margin-top: 30px;
-  font-family: "Farro",sans-serif;
+  font-family: "Farro", sans-serif;
   font-size: 12px;
-
-
-
 }
 
 .parentdiv {
   display: flex !important;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
   align-items: center;
-  font-family: "Farro",sans-serif;
+  font-family: "Farro", sans-serif;
 }
 
 .title {
   font-size: 16px;
   /* font-family: Neue Plak Regular; */
-  font-family: "Farro",sans-serif;
+  font-family: "Farro", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-top: -7px;
   font-stretch: normal;
   font-style: normal;
@@ -108,8 +143,7 @@ margin-left: -25px;
 .addcart {
   position: absolute;
 
-  right: 30px;
-
+  right: 92px;
 }
 /* silvi */
 
@@ -124,14 +158,15 @@ margin-left: -25px;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
 }
 
-.info>img {
+.info > img {
   width: 15%;
+  margin-top: 40px;
 }
-.info>p{
+.info > p {
   padding: 20px;
+  color: black;
 }
 
 .service {
@@ -140,35 +175,31 @@ margin-left: -25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
-.service>div {
+.service > div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
 
-.service>div>img {
+.service > div > img {
   width: 100px;
-
 }
 
-.service>div>p {
+.service > div > p {
   margin-top: -20px;
   font-family: Roboto, sans-serif;
   color: #0c2340;
-  letter-spacing: .0001em;
+  letter-spacing: 0.0001em;
   text-align: center;
 }
 
 .bottom {
   width: 100%;
   height: auto;
-  background-color: #0C2340;
+  background-color: #0c2340;
 }
 
 .contact {
@@ -182,52 +213,49 @@ margin-left: -25px;
   height: auto;
 }
 
-.help>ul {
+.help > ul {
   list-style-type: none;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 16px;
-color: #fff;
-letter-spacing: .005em;
-
-
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
-.help>ul>li{
-  
+.help > ul > li {
   gap: 25px;
 }
 
-.help>ul>li>a {
+.help > ul > li > a {
   text-decoration: none;
   color: #fff;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 12px;
-color: #fff;
-letter-spacing: .005em;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
 
 .about {
   width: 25%;
 }
 
-.about>ul {
+.about > ul {
   list-style-type: none;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 16px;
-color: #fff;
-letter-spacing: .005em;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
 
-.about>ul>li>a {
+.about > ul > li > a {
   color: #fff;
   text-decoration: none;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 12px;
-color: #fff;
-letter-spacing: .005em;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
 
 .social {
@@ -235,13 +263,13 @@ letter-spacing: .005em;
   margin-left: 15%;
   margin-right: 5%;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 16px;
-color: #fff;
-letter-spacing: .005em;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
 
-.social>input {
+.social > input {
   background: transparent;
   border: none;
   outline: none;
@@ -249,13 +277,13 @@ letter-spacing: .005em;
   width: 90%;
   height: 30px;
   font-family: Roboto, sans-serif;
-font-weight: 800;
-font-size: 12px;
-color: #fff;
-letter-spacing: .05em;
+  font-weight: 800;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.05em;
 }
 
-#span1>button {
+#span1 > button {
   margin-left: -30px;
   border: none;
   background: transparent;
@@ -268,12 +296,11 @@ letter-spacing: .05em;
   gap: 10px;
 }
 
-.icon>img {
-
+.icon > img {
   width: 30px;
   height: 30px;
 }
-#policy{
+#policy {
   width: 100%;
   height: 70px;
   color: #fff;
@@ -281,14 +308,14 @@ letter-spacing: .05em;
   align-items: center;
   justify-content: space-around;
   font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 12px;
-color: #fff;
-letter-spacing: .005em;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.005em;
 }
-.policy{
+.policy {
   width: 25%;
 }
-.rights{
+.rights {
   width: 55%;
 }
